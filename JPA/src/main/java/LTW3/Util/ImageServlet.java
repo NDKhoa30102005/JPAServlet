@@ -12,11 +12,11 @@ import jakarta.servlet.http.HttpServletResponse;
 @WebServlet("/images/category/*")
 public class ImageServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        String filename = request.getPathInfo().substring(1); // bỏ dấu /
+        String filename = request.getPathInfo().substring(1);
         File file = new File(Constant.DIR + File.separator + filename);
 
         if (!file.exists()) {
-            response.sendError(HttpServletResponse.SC_NOT_FOUND); // 404
+            response.sendError(HttpServletResponse.SC_NOT_FOUND);
             return;
         }
 

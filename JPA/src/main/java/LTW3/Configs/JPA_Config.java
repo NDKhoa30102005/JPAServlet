@@ -1,8 +1,6 @@
 package LTW3.Configs;
 
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.Persistence;
+import jakarta.persistence.*;
 
 public class JPA_Config {
 	public static EntityManager getEntityManager() {
