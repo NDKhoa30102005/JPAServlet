@@ -35,6 +35,8 @@
             <h2>Welcome User</h2>
             <p class="text-muted">This is your personal dashboard.</p>
             <a href="${pageContext.request.contextPath}/admin-category" class="btn btn-success">User Categories</a>
+			<a href="${pageContext.request.contextPath}/profile" class="btn btn-success">View Profile</a>
+            
         </div>
     </div>
 </body>

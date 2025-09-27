@@ -18,6 +18,12 @@ public class User {
 
     @Column(name = "roleid")
     private int roleid;  
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
+    private Profile profile;
+
+    public Profile getProfile() { return profile; }
+    public void setProfile(Profile profile) { this.profile = profile; }
+
 
     public User() {}
 

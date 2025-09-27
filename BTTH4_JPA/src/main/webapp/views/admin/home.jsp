@@ -30,6 +30,8 @@
             <h2>Welcome Admin</h2>
             <p class="text-muted">This is the admin dashboard.</p>
             <a href="${pageContext.request.contextPath}/admin-category" class="btn btn-primary">Manage Categories</a>
+            <a href="${pageContext.request.contextPath}/profile" class="btn btn-success">View Profile</a>
+            
         </div>
     </div>
 </body>

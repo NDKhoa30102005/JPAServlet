@@ -27,6 +27,8 @@
             <h2 class="mb-3 text-primary">Welcome Manager</h2>
             <p class="text-muted">This is the manager dashboard.</p>
             <a href="${pageContext.request.contextPath}/admin-category" class="btn btn-primary mt-3">Manage Categories</a>
+			<a href="${pageContext.request.contextPath}/profile" class="btn btn-success">View Profile</a>
+            
         </div>
     </div>
 </body>
